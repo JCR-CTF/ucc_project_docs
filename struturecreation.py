@@ -54,15 +54,127 @@ structure = {
         }
     },
     "SIMULATION": {
-        "Authentication": {
-            "Login": None,
-            "Regisration": None,
-            "Password Reset": None
-        },
-        "Others": {
-            "test": None
-        }
+        "Deploy":{
+            "Overview": None,
+            "Deployment": {
+                "Installation": None,
+                "Updating": None,
+                "Configuration": None
+            },
+            "Accounts": {
+                "Overview": None,
+                "User Mode": None,
+                "Users": None,
+                "Teams": None,
+                "Admin Roles": None,
+                "Examples": None
+            },
+            "Pages": {
+                "Overview": None,
+                "Page Properties": None,
+                "Page Variables": None,
+                "Media Library": None
+            },
+            "Notifications": {
+                "Overview": None
+            },
+            "Challenges": {
+                "Overview": None,
+                "Files": None,
+                "Flags": None,
+                "Topics": None,
+                "Tags": None,
+                "Hints": None,
+                "Requirements": None,
+                "Next": None
+            },
+            "Custom Challenges": {
+                "Custom Challenges": None,
+                "Dynamic Value": None,
+                "Multiple Choice": None,
+                "Manual Verification": None,
+                "Code Challenges": None,
+                "King of the Hill": None,
+                "Application Target": None
+            },
+            "Management": {
+                "Overview": None,
+                "ctfcli": {
+                    "Overview": None,
+                    "Challenges": None,
+                    "Pages": None,
+                    "Templates": None,
+                    "Plugins": None
+                }
+            },
+            "Integrations": {
+                "Custom Webhooks": None,
+                "Slack Webhooks": None,
+                "Discord Webhooks": None,
+                "MajorLeagueCyber": None,
+                "Crisp Chat": None
+            },
+            "Scoring": {
+                "Overview": None
+            },
+            "Settings": {
+                "Overview": None,
+                "Themes": None,
+                "Theme Headers & Footers": None,
+                "Accounts Settings": None,
+                "Brackets": None,
+                "Custom Fields": None,
+                "MajorLeagueCyber": None,
+                "Visibility Settings": None,
+                "Security": None,
+                "Email Settings": None,
+                "Competition Times": None,
+                "Legal": None,
+                "User Modes": None,
+                "Single Sign-On (SSO)": None
+            },
+            "Exports": {
+                "Overview": None,
+                "CTFd Exports": None,
+                "CSV Exporting": None
+            },
+            "Plugins": {
+                "Developing CTFd Plugins": None,
+                "Challenge Type Plugins": None,
+                "Flag Type Plugins": None
+            },
+            "Imports": {
+                "Imports": None,
+                "CSV Importing": None,
+                "Importing a CTFd Export": None
+            },
+            "Themes": {
+                "Overview": None,
+                "Structure": None,
+                "Build System": None,
+                "Templates": None,
+                "CSS": None,
+                "JavaScript": None,
+                "CTFd.js": None,
+                "Alpine.js": None
+            },
+            "API": {
+                "Getting Started": None,
+                "Examples": None,
+                "Swagger UI": None
+            },
+            "Contributing": {
+                "Contribution Guidelines": None,
+                "Performing Migrations": None
+            }
+            },
+        "Settings":{},
+        "Turorials":{},
+        "Plugins":{},
+        "HostedCTFd":{},
+        "Themes":{},
     },
+    
     "LABS": {
         "Challenges": {
             "Challenges Creation": None,
@@ -74,8 +186,9 @@ structure = {
     }
 }
 
+
 # Set the base path to your docs folder
-base_path = 'docs'
+base_path = 'docs_v2'
 
 # Create the new structure
 create_structure(base_path, structure)
