@@ -4,32 +4,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'SIMULATION PLATFORM',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Building Resilience, Empowering Defense
+
+        In an era of rapidly evolving cyber threats, the Uganda National Cyber Range serves as a dedicated, state-of-the-art platform to enhance our nation’s cyber defense capabilities. Designed to simulate real-world cyber environments, this range is a safe, controlled space for cybersecurity training, testing, and research.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'CYBER LABS',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+        Realistic Cyber Simulation Environments: Engage in live-fire cyber exercises that replicate modern cyber threats and testing conditions.
+Advanced Training Programs: Access tailored training sessions and courses designed for cybersecurity students, practitioners, and government agencies.
+Collaborative Research & Development: Partner with institutions, industry experts, and organizations to drive forward new technologies and methodologies in cybersecurity.
+      </>   
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Mission',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our mission is clear:
+
+Train & Equip: To empower the next generation of cybersecurity professionals through rigorous hands-on training exercises, simulated attack scenarios, and cutting-edge cyber defense strategies.
+Strengthen Defense: To bolster Uganda's cybersecurity infrastructure, reducing vulnerabilities and enhancing resilience against emerging threats.
+Promote Innovation: To support research, innovation, and collaborative solutions that address the unique cybersecurity challenges faced by Uganda and the global community..
       </>
     ),
   },
