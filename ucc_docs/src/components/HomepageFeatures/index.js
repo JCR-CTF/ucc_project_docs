@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'SIMULATION PLATFORM',
+    title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -15,26 +15,22 @@ const FeatureList = [
     ),
   },
   {
-    title: 'CYBER LABS',
+    title: 'Focus on What Matters',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Realistic Cyber Simulation Environments: Engage in live-fire cyber exercises that replicate modern cyber threats and testing conditions.
-Advanced Training Programs: Access tailored training sessions and courses designed for cybersecurity students, practitioners, and government agencies.
-Collaborative Research & Development: Partner with institutions, industry experts, and organizations to drive forward new technologies and methodologies in cybersecurity.
-      </>   
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
+      </>
     ),
   },
   {
-    title: 'Mission',
+    title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Our mission is clear:
-
-Train & Equip: To empower the next generation of cybersecurity professionals through rigorous hands-on training exercises, simulated attack scenarios, and cutting-edge cyber defense strategies.
-Strengthen Defense: To bolster Uganda's cybersecurity infrastructure, reducing vulnerabilities and enhancing resilience against emerging threats.
-Promote Innovation: To support research, innovation, and collaborative solutions that address the unique cybersecurity challenges faced by Uganda and the global community..
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
