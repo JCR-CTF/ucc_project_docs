@@ -1,5 +1,4 @@
 // @ts-check
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -8,11 +7,9 @@ const config = {
   tagline: 'Documentation for UCC Project',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://jcr-ctf.github.io',
   baseUrl: '/ucc_project_docs/',
 
-  // GitHub pages deployment config
   organizationName: 'JCR-CTF',
   projectName: 'ucc_project_docs',
   trailingSlash: false,
