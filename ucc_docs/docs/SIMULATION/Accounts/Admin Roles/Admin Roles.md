@@ -1,9 +1,10 @@
+# Admin
 Admins have full ability to modify all aspects of UCC Cyber Range through the Admin Panel.
 
 Admins have the following permissions:
 
 * MANAGE_USERS
-* MANAGE_CHALLENGES
+* MANAGE_CHALLENGES  
 * MANAGE_SUBMISSIONS
 * MANAGE_PAGES
 * MANAGE_NOTIFICATIONS
@@ -11,26 +12,24 @@ Admins have the following permissions:
 * MANAGE_COMMENTS
 
 # Moderator
-
 Moderators are users who can modify most aspects of UCC Cyber Range with the exception of the configuration of UCC Cyber Range.
 
 Moderators have the following permissions:
 
 * MANAGE_USERS
 * MANAGE_CHALLENGES
-* MANAGE_SUBMISSIONS
+* MANAGE_SUBMISSIONS 
 * MANAGE_PAGES
 * MANAGE_NOTIFICATIONS
 * MANAGE_COMMENTS
 
 # Judge
-
 Judges are admins who are intended to be in charge of users and challenges. They cannot make modifications to page content or notifications but they can manage challenges, users, and teams.
 
 Judges have the following permissions:
 
 * MANAGE_STATISTICS
-*MANAGE_USERS
+* MANAGE_USERS
 * MANAGE_CHALLENGES
 * MANAGE_SUBMISSIONS
 
