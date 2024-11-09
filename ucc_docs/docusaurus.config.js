@@ -3,17 +3,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'UCC Project Docs',
-  tagline: 'Documentation for UCC Project',
+  title: 'UCC Project Docs', // CHANGED: Updated site title
+  tagline: 'Documentation for UCC Project', // CHANGED: Updated tagline
   favicon: 'img/favicon.ico',
 
+  // CHANGED: Updated URL for GitHub Pages
   url: 'https://jcr-ctf.github.io',
+  // CHANGED: Updated baseUrl for your repository
   baseUrl: '/ucc_project_docs/',
 
-  organizationName: 'JCR-CTF',
-  projectName: 'ucc_project_docs',
-  trailingSlash: false,
-  deploymentBranch: 'gh-pages',
+  // CHANGED: Updated GitHub pages deployment config
+  organizationName: 'JCR-CTF', // Changed to your GitHub org name
+  projectName: 'ucc_project_docs', // Changed to your repo name
+  trailingSlash: false, // ADDED: Recommended for GitHub Pages
+  deploymentBranch: 'gh-pages', // ADDED: Specify deployment branch
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,6 +33,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          // CHANGED: Updated to your repository
           editUrl:
             'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
         },
@@ -39,6 +43,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          // CHANGED: Updated to your repository
           editUrl:
             'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
           onInlineTags: 'warn',
@@ -57,9 +62,9 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'UCC Project Docs',
+        title: 'UCC Project Docs', // CHANGED: Updated navbar title
         logo: {
-          alt: 'UCC Project Logo',
+          alt: 'UCC Project Logo', // CHANGED: Updated logo alt text
           src: 'img/logo.svg',
         },
         items: [
@@ -67,10 +72,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Documentation', // CHANGED: Updated label
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            // CHANGED: Updated GitHub link
             href: 'https://github.com/JCR-CTF/ucc_project_docs',
             label: 'GitHub',
             position: 'right',
@@ -84,7 +90,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
+                label: 'Documentation', // CHANGED: Updated label
                 to: '/docs/intro',
               },
             ],
@@ -114,12 +120,14 @@ const config = {
                 to: '/blog',
               },
               {
+                // CHANGED: Updated GitHub link
                 label: 'GitHub',
                 href: 'https://github.com/JCR-CTF/ucc_project_docs',
               },
             ],
           },
         ],
+        // CHANGED: Updated copyright
         copyright: `Copyright © ${new Date().getFullYear()} UCC Project. Built with Docusaurus.`,
       },
       prism: {
