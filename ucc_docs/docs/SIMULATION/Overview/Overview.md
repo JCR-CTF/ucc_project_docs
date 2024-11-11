@@ -8,6 +8,6 @@ UCC Cyber Range comes with most of the features needed by an event organizer to 
 
 UCC Cyber Range is used by many different clubs, universities, and companies to host their own Capture The Flags.
 
-While available as open source, UCC Cyber Range developers also provide a managed hosting service available at https://UCC Cyber Range.io/.
+While available as open source, UCC Cyber Range developers also provide a managed hosting service available at [UCC-Simulation](http://simulations.ug-cert.ug).
 
 UCC Cyber Range is written in Python and makes use of the Flask web framework.

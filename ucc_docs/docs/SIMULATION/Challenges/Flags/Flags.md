@@ -10,12 +10,14 @@ Static flags are simple, users must submit exactly the value of the flag in orde
 # Regex Flag
 Regex flags allow admins to define regular expressions to match flags. Regular expressoins allow challenges to accept multiple flag values as correct as long as it can be represented in a regular expression.
 
-> **tip**  
-> 💡To test your regular expressions we recommend using the [Pythex](https://pythex.org/) website.
+:::tip
+To test your regular expressions we recommend using the [Pythex](https://pythex.org/) website.
+:::
 
 # Programmable Flag
-caution
+:::caution
 Programmable flags are only available on Hosted or Enterprise Ucc Cyber Range instances
+:::
 
 Programmable keys allow you to use Python code to check user submissions when static or regex flags are not flexible enough.
 

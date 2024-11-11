@@ -16,8 +16,8 @@ From the Brackets tab in the Config page, Admins can create Brackets:
 
 # Bracket Types
 
-Users - brackets will group users together
-Teams - brackets will group teams together
+**Users** - brackets will group users together
+**Teams** - brackets will group teams together
 You'll want to select the type based on your User Mode. For example, if your instance is set to Team Mode, your bracket type should be Teams.
 
 # Adding Users or Teams to Brackets
