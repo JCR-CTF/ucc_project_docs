@@ -1,4 +1,5 @@
 # Themes
+
 CTFd allows organizers to change how the website looks to users through themes. Themes allow for significant changes in how the scoreboard, challenge board, user pages, team pages, etc. are all represented to the user.
 
 Customizing Themes

@@ -80,8 +80,9 @@ Specifies whether UCC Cyber Range is behind a reverse proxy or not. Set to True 
 
 See Flask documentation for full details.
 
-> **tip**  
-> 💡You can also specify a comma seperated set of numbers specifying the reverse proxy configuration settings. For example to configure x_for=1, x_proto=1, x_host=1, x_port=1, x_prefix=1 specify 1,1,1,1,1. By setting the value to True, UCC Cyber Range will default to the above behavior with all proxy settings set to 1.
+::::tip
+You can also specify a comma seperated set of numbers specifying the reverse proxy configuration settings. For example to configure x_for=1, x_proto=1, x_host=1, x_port=1, x_prefix=1 specify 1,1,1,1,1. By setting the value to True, UCC Cyber Range will default to the above behavior with all proxy settings set to 1.
+::::
 
 # TEMPLATES_AUTO_RELOAD
 Specifies whether Flask should check for modifications to templates and reload them automatically.
