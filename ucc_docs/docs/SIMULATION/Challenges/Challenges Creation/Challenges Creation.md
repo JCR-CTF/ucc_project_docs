@@ -7,3 +7,5 @@ The Challenges Creation feature allows instructors to design and add new challen
 * **Configure Access and Prerequisites:** Instructors can set prerequisites or conditions, such as requiring completion of previous challenges or specific role access.
 * **Add Scoring and Feedback:** Define points, scoring criteria, and feedback options to provide users with meaningful performance metrics.
 * **Test the Challenge:** Before publishing, instructors can preview and test the challenge to ensure it works as intended and provides the desired learning experience
+
+![alt text](./cre.png)
