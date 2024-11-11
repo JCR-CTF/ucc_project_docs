@@ -15,22 +15,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Cyber Labs',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      UCC Cyber Drill's Cyber Labs offer a hands-on training environment where participants can engage in real-world cybersecurity simulations. Designed to simulate attack and defense scenarios, these labs empower users to sharpen their skills, test strategies, and improve their resilience against evolving cyber threats.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Uganda Communication Commission',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+    The UCC Cyber Drill platform is powered by the Uganda Communication Commission (UCC), driving the nation's efforts to enhance cybersecurity awareness and defense. Through strategic partnerships and innovation, UCC provides the infrastructure and support to develop effective cyber training and simulation platforms that empower individuals and organizations to combat cyber threats.
       </>
     ),
   },
