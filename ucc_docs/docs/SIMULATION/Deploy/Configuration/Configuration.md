@@ -72,7 +72,9 @@ Server level configuration can be modified from the `config.ini` file in UCC Cyb
 > #### REVERSE_PROXY
 > Specifies whether UCC Cyber Range is behind a reverse proxy or not. Set to True if using a reverse proxy like nginx.
 >
-> 💡 **Tip**: You can specify a comma-separated set of numbers for reverse proxy configuration settings. For example:
+::::tip
+ You can specify a comma-separated set of numbers for reverse proxy configuration settings. For example.
+ ::::
 > ```
 > 1,1,1,1,1  # Configures x_for=1, x_proto=1, x_host=1, x_port=1, x_prefix=1
 > ```

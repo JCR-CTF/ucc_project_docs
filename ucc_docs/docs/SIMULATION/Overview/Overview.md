@@ -2,7 +2,7 @@
 
 ![UCC Logo](https://learn.ug-cert.ug/pluginfile.php/1/core_admin/logocompact/300x300/1727683148/ucc-logo.png)
 
-UCCD is a Capture The Flag framework focusing on ease of use and customizability.
+ UCC Cyber Drill (UCCD) is a Capture The Flag framework focusing on ease of use and customizability.
 
 UCCD comes with most of the features needed by an event organizer to run a competition or workshop. In addition, if UCCD's feature set is insufficient, UCCD allows for the usage of plugins and themes to control almost every aspect of how it looks and behaves.
 
