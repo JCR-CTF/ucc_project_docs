@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkucc_docs=self.webpackChunkucc_docs||[]).push([[1265],{3827:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/ucc_project_docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
