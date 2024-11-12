@@ -3,9 +3,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'UCC Project Docs', // CHANGED: Updated site title
-  tagline: 'Documentation for UCC Project', // CHANGED: Updated tagline
-  favicon: 'img/favicon.ico',
+  title: 'UCC CYBER DRILL', // CHANGED: Updated site title
+  tagline: 'Documentation for UCC Cyber Drill', // CHANGED: Updated tagline
+  favicon: 'https://www.ucc.co.ug/wp-content/uploads/2023/09/ucc-web-logo.png',
 
   // CHANGED: Updated URL for GitHub Pages
   url: 'https://jcr-ctf.github.io',
@@ -95,12 +95,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://www.ucc.co.ug/wp-content/uploads/2023/09/ucc-web-logo.png',
       navbar: {
-        title: 'UCC Project Docs', // CHANGED: Updated navbar title
+        title: 'UCC CYBER DRILL DOCS', // CHANGED: Updated navbar title
         logo: {
           alt: 'UCC Project Logo', // CHANGED: Updated logo alt text
-          src: 'img/logo.svg',
+          src: 'https://www.ucc.co.ug/wp-content/uploads/2023/09/ucc-web-logo.png',
         },
         items: [
           {
@@ -109,9 +109,25 @@ const config = {
             position: 'left',
             label: 'Documentation', // CHANGED: Updated label
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            // CHANGED: Updated GitHub link
+            to: '/docs/category/simulation',
+            label: 'CTFd',
+            position: 'left',
+          },
+          {
+            to: '/docs/category/lms',
+            label: 'LMS',
+            position: 'left',
+          },
+        
+      
+          // Right-aligned items
+          {
+            href: 'https://platform.ug-cert.ug/',
+            label: 'CyberDrill Website',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/JCR-CTF/ucc_project_docs',
             label: 'GitHub',
             position: 'right',

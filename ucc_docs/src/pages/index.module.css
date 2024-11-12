@@ -1,8 +1,4 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
+Common styles for both themes
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -10,14 +6,322 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Hero Section - Both Themes */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  color: var(--ifm-hero-text-color);
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.heroContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Search Styling - Both Themes */
+.heroSearch {
+  position: relative;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.docSections {
+  padding: 2rem 0;  /* Increased padding */
+  margin-bottom: 3rem; /* Add margin bottom */
+}
+.searchInput {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--ifm-navbar-search-input-background-color);
+  border: 1px solid var(--ifm-navbar-search-input-border-color);
+  color: var(--ifm-navbar-search-input-color);
+}
+
+.searchInput::placeholder {
+  color: var(--ifm-navbar-search-input-placeholder-color);
+}
+
+.searchHint {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--ifm-navbar-search-input-placeholder-color);
+}
+.quickRef {
+  padding: 2rem 0;  /* Match padding with other sections */
+  margin-top: 2rem; /* Add some space from previous section */
+}
+
+/* Documentation Sections - Light Theme */
+[data-theme='light'] .docSections {
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='light'] .docCard {
+  background: var(--ifm-background-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+[data-theme='light'] .docLinks a {
+  color: var(--ifm-color-primary);
+}
+
+/* Documentation Sections - Dark Theme */
+[data-theme='dark'] .docSections {
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .docCard {
+  background: var(--ifm-background-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+[data-theme='dark'] .docLinks a {
+  color: var(--ifm-color-primary);
+}
+
+/* Quick Reference - Light Theme */
+[data-theme='light'] .quickRef {
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='light'] .quickLinks a {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Quick Reference - Dark Theme */
+[data-theme='dark'] .quickRef {
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .quickLinks a {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Common Hover Effects */
+.quickLinks a:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.docCard {
+  padding: 2rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.docCard:hover {
+  transform: translateY(-2px);
+}
+
+/* Hero Background - Theme Specific */
+[data-theme='light'] .hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+  color: white;
+}
+
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: white;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;  /* Increased gap between cards */
+  padding: 1rem;  /* Add some padding around the grid */
+}
+
+.docLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.quickLinks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;  /* Adjusted gap */
+  margin: 2rem auto;  /* Center and add vertical margin */
+  max-width: 1200px;  /* Maximum width for better layout */
+  padding: 0 1rem;    /* Add horizontal padding */
+}
+.quickLinks a {
+  padding: 1.5rem;    /* Increased padding */
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+/* Icons */
+.docIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Card Images */
+.cardImage {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+[data-theme='light'] .cardImage {
+  background: #f5f5f5;
+}
+
+[data-theme='dark'] .cardImage {
+  background: #2d2d2d;
+}
+
+.docCard:hover .cardImage img {
+  transform: scale(1.05);
+}
+
+/* Partners Section */
+.partners {
+  padding: 5rem 0;    /* Match padding with other sections */
+  margin-top: 2rem;   /* Space from previous section */
+}
+
+.partnersSubtitle {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 3rem;
+}
+
+.partnerGrid {
+  display: flex;  /* Changed from grid to flex for better control with few items */
+  justify-content: center;
+  gap: 2rem;
+  max-width: 600px;  /* Limit the maximum width to keep partners closer */
+  margin: 0 auto;    /* Center the container */
+  padding: 2rem;
+}
+
+.partnerCard {
+  flex: 0 1 400px;   /* Fixed width for each partner card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+
+
+[data-theme='dark'] .partnerCard {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.partnerCard:hover {
+  transform: translateY(-5px);
+}
+
+.partnerCard img {
+  height: 80px;
+  width: auto;
+  margin-bottom: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.partnerCard:hover img {
+  filter: grayscale(0%);
+}
+
+.partnerName {
+  color: var(--ifm-font-color-base);
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .partnerGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardImage {
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .partnerGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .partnerGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partnerCard {
+    width: 100%;
+    max-width: 500px;  /* Limit width on mobile */
+  }
+}
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .docSections,
+  .quickRef,
+  .partners {
+    padding: 3rem 0;  /* Reduced padding on mobile */
+  }
+
+  .sectionGrid {
+    gap: 2rem;        /* Reduced gap on mobile */
+  }
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+  
+ 
 }
