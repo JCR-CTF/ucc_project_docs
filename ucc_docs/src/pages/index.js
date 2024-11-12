@@ -39,7 +39,7 @@ function HeroSection() {
 function DocumentationSections() {
   const sections = [
     {
-      title: 'CTFd Platform',
+      title: 'Cyber Drill Platform',
       description: 'Documentation for the Capture The Flag platform, including challenge creation, scoring, and competition management.',
       links: [
         { label: 'Getting Started', url: '/docs/ctfd/introduction' },
