@@ -1,5 +1,5 @@
 # Admin
-Admins have full ability to modify all aspects of UCC Cyber Range through the Admin Panel.
+Admins have full ability to modify all aspects of UCCD through the Admin Panel.
 
 Admins have the following permissions:
 
@@ -12,7 +12,7 @@ Admins have the following permissions:
 * MANAGE_COMMENTS
 
 # Moderator
-Moderators are users who can modify most aspects of UCC Cyber Range with the exception of the configuration of UCC Cyber Range.
+Moderators are users who can modify most aspects of UCCD with the exception of the configuration of UCCD.
 
 Moderators have the following permissions:
 
@@ -34,7 +34,7 @@ Judges have the following permissions:
 * MANAGE_SUBMISSIONS
 
 # Editor
-Editors are admins who are intended to manage the copy and content of UCC Cyber Range. They are only able to modify page content and issue notifications.
+Editors are admins who are intended to manage the copy and content of UCCD. They are only able to modify page content and issue notifications.
 
 Editors have the following permissions:
 

@@ -1,17 +1,17 @@
 # Users
 
-In UCC Cyber Range, every participant must register for an account before being able to access the CTF challenges. Users can manually register by going to the Registration page if it's available, or admins can manually create users from the Admin Panel or the API.
+In UCCD, every participant must register for an account before being able to access the CTF challenges. Users can manually register by going to the Registration page if it's available, or admins can manually create users from the Admin Panel or the API.
 
 # Types
-There are two main types of users in UCC Cyber Range.
+There are two main types of users in UCCD.
 
 # Admin
-Admin users are the administrative users of UCC Cyber Range and are allowed to access the Admin Panel. From the Admin Panel, admins are allowed to add/edit/delete challenges, add/edit/delete pages, modify configuration, add user accounts, edit user accounts etc. Admin users are also able to access sensitive API endpoints and also make changes for any user or team.
+Admin users are the administrative users of UCCD and are allowed to access the Admin Panel. From the Admin Panel, admins are allowed to add/edit/delete challenges, add/edit/delete pages, modify configuration, add user accounts, edit user accounts etc. Admin users are also able to access sensitive API endpoints and also make changes for any user or team.
 
-Organizers, challenge developers, and other important users should be made into Admin users so that they can help manage the running UCC Cyber Range instance.
+Organizers, challenge developers, and other important users should be made into Admin users so that they can help manage the running UCCD instance.
 
 # User
-A user is a regular UCC Cyber Range user and only has access to the main site. That is, they are unable to access the Admin Panel or access sensitive API endpoints. They're also only able to make changes for their own user profile. Users who are captain of a team are also the only users that can edit their own team's profile.
+A user is a regular UCCD user and only has access to the main site. That is, they are unable to access the Admin Panel or access sensitive API endpoints. They're also only able to make changes for their own user profile. Users who are captain of a team are also the only users that can edit their own team's profile.
 
 Users may create their own accounts via the registration page.
 

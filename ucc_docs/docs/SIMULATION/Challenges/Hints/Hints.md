@@ -1,6 +1,6 @@
 # Hints
 
-Ucc Cyber Range allows admins to create hints which can be unlocked by users.
+UCCD allows admins to create hints which can be unlocked by users.
 
 Hints can either be free or have an associated cost with them. Users that unlock paid hints receive a drop in their score equal to the cost of the hint. For example, if a challenge has a hint that costs 50 points, a user must have at least a score of 50 to unlock the hint. More concretely, if a user has 300 points, then unlocks a hint that costs 50 points, the user will then have a score of 250.
 

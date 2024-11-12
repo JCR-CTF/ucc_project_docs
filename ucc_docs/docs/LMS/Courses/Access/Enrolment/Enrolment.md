@@ -7,3 +7,5 @@ The enrollment feature allows users to register for courses within the LMS. This
 * **Enrollment Codes:** Course-specific codes enable restricted access, where only users with the correct code can join.
 * **Batch Enrollment:** Admins can upload a list of users to enroll multiple users at once.
 Each enrollment type may be configured to suit specific organizational needs.
+
+![Alt Text](./enrol.png)

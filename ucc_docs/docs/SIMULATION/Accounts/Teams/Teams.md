@@ -1,6 +1,6 @@
 # Teams
 
-UCC Cyber UCC Cyber Range, when configured in Team Mode, all participants will need to be a member of a team before being able to access the CTF challenges.
+UCC Cyber UCCD, when configured in Team Mode, all participants will need to be a member of a team before being able to access the CTF challenges.
 
 Teams first need to be created by a team captain. Once the team captain has created the team, they can share the team name and team password with their team members. The team members can then use the team credentials to join the team.
 
