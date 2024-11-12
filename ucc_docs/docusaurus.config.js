@@ -25,7 +25,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -33,7 +32,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // CHANGED: Updated to your repository
           editUrl:
             'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
         },
@@ -43,12 +41,19 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // CHANGED: Updated to your repository
           editUrl:
             'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+        },
+        // Add sitemap configuration here
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,6 +61,36 @@ const config = {
       }),
     ],
   ],
+  // presets: [
+  //   [
+  //     'classic',
+  //     /** @type {import('@docusaurus/preset-classic').Options} */
+  //     ({
+  //       docs: {
+  //         sidebarPath: './sidebars.js',
+  //         // CHANGED: Updated to your repository
+  //         editUrl:
+  //           'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
+  //       },
+  //       blog: {
+  //         showReadingTime: true,
+  //         feedOptions: {
+  //           type: ['rss', 'atom'],
+  //           xslt: true,
+  //         },
+  //         // CHANGED: Updated to your repository
+  //         editUrl:
+  //           'https://github.com/JCR-CTF/ucc_project_docs/tree/main/',
+  //         onInlineTags: 'warn',
+  //         onInlineAuthors: 'warn',
+  //         onUntruncatedBlogPosts: 'warn',
+  //       },
+  //       theme: {
+  //         customCss: './src/css/custom.css',
+  //       },
+  //     }),
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
