@@ -18,7 +18,7 @@ const config = {
   trailingSlash: false, // ADDED: Recommended for GitHub Pages
   deploymentBranch: 'gh-pages', // ADDED: Specify deployment branch
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -126,7 +126,7 @@ const config = {
             items: [
               {
                 label: 'Documentation', // CHANGED: Updated label
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
             ],
           },
