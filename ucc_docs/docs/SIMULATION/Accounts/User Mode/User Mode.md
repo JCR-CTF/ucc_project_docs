@@ -1,18 +1,39 @@
 # User Mode
 
-# What are User Modes
-UCCD has two kinds of "user modes", User Mode and Team Mode. User modes dictate how players register for the competition and how they're scored.
+## Overview
 
-# Team Mode
-If you set your CTF to Team Mode, every team will need to choose a captain. Their captain should register a team and then share the team password with their teammates. Their teammates will then be able to use the team name and password to join the team.
+UCCD has two user modes that determine player registration and scoring:
+* User Mode
+* Team Mode
 
-All solves, submissions, awards, and hints gotten by a team member will be attributed the team as well as the individual user. To use a metaphor, in basketball when someone scores points the team gets the points, but we still record how many points the player has gotten for the team. The same is true in UCCD.
+## Team Mode
 
-Important Notes:
+In Team Mode:
+* Every team needs a captain
+* Captain registers the team and shares team password
+* Team members join using team name and password
 
-* Under team mode everyone should register for their own user account. Then one person from each team (the captain) should register a team account and share the team name and password with their fellow teammates. The other members should then join the team using those credentials.
+### Score Attribution
+* All solves, submissions, awards, and hints are attributed to:
+ * The individual user
+ * The entire team
 
-* Solo individuals can still play in Team Mode but they will still need to register a team.
+Think of it like basketball: when a player scores, both the player and team get credit for those points.
 
-User Mode
-Under User mode, UCCD lets participants play on their own using their user account. Multiple players also share the same account to play together but solves and submissions will all be attributed to the same account instead of broken down by player.
+### Important Notes
+
+* Registration Process:
+ 1. All players create individual user accounts
+ 2. Team captain creates team account
+ 3. Captain shares team credentials
+ 4. Team members join using shared credentials
+
+* Solo players must still register a team to participate
+
+## User Mode
+
+Under User Mode:
+* Participants play individually using their user account
+* Multiple players can share one account
+* All activity (solves/submissions) is attributed to the shared account
+* No breakdown of individual player contributions

@@ -2,10 +2,28 @@
 
 UCCD allows admins to create hints which can be unlocked by users.
 
-Hints can either be free or have an associated cost with them. Users that unlock paid hints receive a drop in their score equal to the cost of the hint. For example, if a challenge has a hint that costs 50 points, a user must have at least a score of 50 to unlock the hint. More concretely, if a user has 300 points, then unlocks a hint that costs 50 points, the user will then have a score of 250.
+## Hint Costs and Scoring
 
-If a user does not have enough points to unlock a hint, they will be unable to unlock a hint. A user is unable to lower their score beyond zero to unlock a hint. Because of this one recommended approach to having paid hints is to create an intial "gimme" challenge that will give the user some free points to then subsequently unlock hints in later challenges.
+### Paid Hints
+* Hints can have an associated point cost
+* Users must have enough points to unlock paid hints
+* Point cost is deducted from user's total score upon unlocking
+* User score cannot go below zero
 
-:::caution
-Keep in mind that in many online CTFs, users can create unlimited accounts. So having paid hints may not be a reliable mechanism for point deduction as users may create throwaway accounts to unlock hints and then use the hint knowledge on their "main" account.
-:::
+### Example:
+* Challenge hint costs 50 points
+* User has 300 points
+* After unlocking hint: 300 - 50 = 250 points remaining
+
+## Strategy Recommendations
+
+### Initial Points Setup
+* Create an introductory "gimme" challenge
+* Provides initial points to users
+* Enables hint unlocking for later challenges
+
+> **Caution**: In online CTFs, users can create multiple accounts. Paid hints may not effectively control point deduction as users could:
+> * Create throwaway accounts to view hints
+> * Apply hint knowledge to their main account
+> * Bypass the point deduction system
+
