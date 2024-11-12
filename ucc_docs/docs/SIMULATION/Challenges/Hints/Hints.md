@@ -1,6 +1,6 @@
 # Hints
 
-Ucc Cyber Range allows admins to create hints which can be unlocked by users.
+UCCD allows admins to create hints which can be unlocked by users.
 
 ## Hint Costs and Scoring
 

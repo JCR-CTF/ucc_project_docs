@@ -1,6 +1,6 @@
 # Next
 
-Ucc Cyber Range provides an option for admins to recommend the next challenge to solve after a user solves one.
+UCCD provides an option for admins to recommend the next challenge to solve after a user solves one.
 
 ![Next Challenge Interface](https://docs.ctfd.io/assets/images/next-challenge-077b8fdedf0d73b2cb877b61716540bc.png)
 

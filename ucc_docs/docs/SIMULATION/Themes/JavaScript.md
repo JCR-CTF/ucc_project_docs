@@ -1,7 +1,7 @@
 # JavaScript
 
 manifest.json
-In your vite.config.js you must enable the manifest flag. The generated manifest file is expected to be in the static directory. CTFd will use the generated manifest.json file to render *script* tags when your template uses the Assets constant helper.
+In your vite.config.js you must enable the manifest flag. The generated manifest file is expected to be in the static directory. UCCD will use the generated manifest.json file to render *script* tags when your template uses the Assets constant helper.
 
 For example, if your manifest.json looks like:
 
