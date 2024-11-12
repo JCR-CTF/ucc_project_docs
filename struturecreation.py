@@ -34,156 +34,219 @@ def create_structure(base_path, structure, level=0):
 
 # Define the structure
 structure = {
-    "intro.md": None,
-    "LMS": {
-        "Authentication": {
-            "Login": None,
-            "Regisration": None,
-            "Password Reset": None,
-        },
-        "Courses": {
-            "Access": {
-                "CourseContent": None,
-                "Enrolment": None,
-            },
-            "Assignments": {
-                "AssignmentContent": None,
-                "Grade": None,
-            },
-            "Course Exit": None
-        }
-    },
-    "SIMULATION": {
-        "Deploy":{
-            "Overview": None,
-            "Deployment": {
-                "Installation": None,
-                "Updating": None,
-                "Configuration": None
-            },
-            "Accounts": {
-                "Overview": None,
-                "User Mode": None,
-                "Users": None,
-                "Teams": None,
-                "Admin Roles": None,
-                "Examples": None
-            },
-            "Pages": {
-                "Overview": None,
-                "Page Properties": None,
-                "Page Variables": None,
-                "Media Library": None
-            },
-            "Notifications": {
-                "Overview": None
-            },
-            "Challenges": {
-                "Overview": None,
-                "Files": None,
-                "Flags": None,
-                "Topics": None,
-                "Tags": None,
-                "Hints": None,
-                "Requirements": None,
-                "Next": None
-            },
-            "Custom Challenges": {
-                "Custom Challenges": None,
-                "Dynamic Value": None,
-                "Multiple Choice": None,
-                "Manual Verification": None,
-                "Code Challenges": None,
-                "King of the Hill": None,
-                "Application Target": None
-            },
-            "Management": {
-                "Overview": None,
-                "ctfcli": {
-                    "Overview": None,
-                    "Challenges": None,
-                    "Pages": None,
-                    "Templates": None,
-                    "Plugins": None
-                }
-            },
-            "Integrations": {
-                "Custom Webhooks": None,
-                "Slack Webhooks": None,
-                "Discord Webhooks": None,
-                "MajorLeagueCyber": None,
-                "Crisp Chat": None
-            },
-            "Scoring": {
-                "Overview": None
-            },
-            "Settings": {
-                "Overview": None,
-                "Themes": None,
-                "Theme Headers & Footers": None,
-                "Accounts Settings": None,
-                "Brackets": None,
-                "Custom Fields": None,
-                "MajorLeagueCyber": None,
-                "Visibility Settings": None,
-                "Security": None,
-                "Email Settings": None,
-                "Competition Times": None,
-                "Legal": None,
-                "User Modes": None,
-                "Single Sign-On (SSO)": None
-            },
-            "Exports": {
-                "Overview": None,
-                "CTFd Exports": None,
-                "CSV Exporting": None
-            },
-            "Plugins": {
-                "Developing CTFd Plugins": None,
-                "Challenge Type Plugins": None,
-                "Flag Type Plugins": None
-            },
-            "Imports": {
-                "Imports": None,
-                "CSV Importing": None,
-                "Importing a CTFd Export": None
-            },
-            "Themes": {
-                "Overview": None,
-                "Structure": None,
-                "Build System": None,
-                "Templates": None,
-                "CSS": None,
-                "JavaScript": None,
-                "CTFd.js": None,
-                "Alpine.js": None
-            },
-            "API": {
-                "Getting Started": None,
-                "Examples": None,
-                "Swagger UI": None
-            },
-            "Contributing": {
-                "Contribution Guidelines": None,
-                "Performing Migrations": None
-            }
-            },
-        "Settings":{},
-        "Turorials":{},
-        "Plugins":{},
-        "HostedCTFd":{},
-        "Themes":{},
-    },
     
-    "LABS": {
-        "Challenges": {
-            "Challenges Creation": None,
-            "Challenges Deleting": None,
-        },
-        "Leaderboards": {
-            "Checking Boards": None
-        }
-    }
+    "LMS": {
+   "Authentication": {
+       "Login": {
+           "Username": "None",
+           "Password": "None",
+           "Remember Me": "None",
+           "SSO Options": "None"
+       },
+       "Registration": {
+           "Email": "None", 
+           "Username": "None",
+           "Password": "None",
+           "Personal Details": "None",
+           "Course Selection": "None"
+       },
+       "Password Reset": {
+           "Email Verification": "None",
+           "Security Questions": "None",
+           "New Password Setup": "None"
+       }
+   },
+   "Courses": {
+       "Access": {
+           "CourseContent": {
+               "Course Materials": "None",
+               "Announcements": "None", 
+               "Course Schedule": "None",
+               "Learning Resources": "None",
+               "Discussion Forums": "None"
+           },
+           "Enrollment": {
+               "Course Selection": "None",
+               "Enrollment Key": "None",
+               "Payment": "None",
+               "Prerequisites Check": "None"
+           }
+       },
+       "Assignments": {
+           "AssignmentContent": {
+               "Instructions": "None",
+               "Due Dates": "None",
+               "Submission Requirements": "None",
+               "File Upload": "None",
+               "Text Entry": "None",
+               "Group Work Settings": "None"
+           },
+           "Grade": {
+               "Score": "None",
+               "Feedback": "None",
+               "Rubric": "None",
+               "Grade History": "None"
+           }
+       },
+       "Course Exit": {
+           "Course Completion": "None",
+           "Certificate": "None",
+           "Final Grade": "None",
+           "Course Feedback": "None"
+       }
+   }
+}
+    
+    # "intro.md": None,
+    # "LMS": {
+    #     "Authentication": {
+    #         "Login": None,
+    #         "Regisration": None,
+    #         "Password Reset": None,
+    #     },
+    #     "Courses": {
+    #         "Access": {
+    #             "CourseContent": None,
+    #             "Enrolment": None,
+    #         },
+    #         "Assignments": {
+    #             "AssignmentContent": None,
+    #             "Grade": None,
+    #         },
+    #         "Course Exit": None
+    #     }
+    # },
+    # "SIMULATION": {
+    #     "Deploy":{
+    #         "Overview": None,
+    #         "Deployment": {
+    #             "Installation": None,
+    #             "Updating": None,
+    #             "Configuration": None
+    #         },
+    #         "Accounts": {
+    #             "Overview": None,
+    #             "User Mode": None,
+    #             "Users": None,
+    #             "Teams": None,
+    #             "Admin Roles": None,
+    #             "Examples": None
+    #         },
+    #         "Pages": {
+    #             "Overview": None,
+    #             "Page Properties": None,
+    #             "Page Variables": None,
+    #             "Media Library": None
+    #         },
+    #         "Notifications": {
+    #             "Overview": None
+    #         },
+    #         "Challenges": {
+    #             "Overview": None,
+    #             "Files": None,
+    #             "Flags": None,
+    #             "Topics": None,
+    #             "Tags": None,
+    #             "Hints": None,
+    #             "Requirements": None,
+    #             "Next": None
+    #         },
+    #         "Custom Challenges": {
+    #             "Custom Challenges": None,
+    #             "Dynamic Value": None,
+    #             "Multiple Choice": None,
+    #             "Manual Verification": None,
+    #             "Code Challenges": None,
+    #             "King of the Hill": None,
+    #             "Application Target": None
+    #         },
+    #         "Management": {
+    #             "Overview": None,
+    #             "ctfcli": {
+    #                 "Overview": None,
+    #                 "Challenges": None,
+    #                 "Pages": None,
+    #                 "Templates": None,
+    #                 "Plugins": None
+    #             }
+    #         },
+    #         "Integrations": {
+    #             "Custom Webhooks": None,
+    #             "Slack Webhooks": None,
+    #             "Discord Webhooks": None,
+    #             "MajorLeagueCyber": None,
+    #             "Crisp Chat": None
+    #         },
+    #         "Scoring": {
+    #             "Overview": None
+    #         },
+    #         "Settings": {
+    #             "Overview": None,
+    #             "Themes": None,
+    #             "Theme Headers & Footers": None,
+    #             "Accounts Settings": None,
+    #             "Brackets": None,
+    #             "Custom Fields": None,
+    #             "MajorLeagueCyber": None,
+    #             "Visibility Settings": None,
+    #             "Security": None,
+    #             "Email Settings": None,
+    #             "Competition Times": None,
+    #             "Legal": None,
+    #             "User Modes": None,
+    #             "Single Sign-On (SSO)": None
+    #         },
+    #         "Exports": {
+    #             "Overview": None,
+    #             "CTFd Exports": None,
+    #             "CSV Exporting": None
+    #         },
+    #         "Plugins": {
+    #             "Developing CTFd Plugins": None,
+    #             "Challenge Type Plugins": None,
+    #             "Flag Type Plugins": None
+    #         },
+    #         "Imports": {
+    #             "Imports": None,
+    #             "CSV Importing": None,
+    #             "Importing a CTFd Export": None
+    #         },
+    #         "Themes": {
+    #             "Overview": None,
+    #             "Structure": None,
+    #             "Build System": None,
+    #             "Templates": None,
+    #             "CSS": None,
+    #             "JavaScript": None,
+    #             "CTFd.js": None,
+    #             "Alpine.js": None
+    #         },
+    #         "API": {
+    #             "Getting Started": None,
+    #             "Examples": None,
+    #             "Swagger UI": None
+    #         },
+    #         "Contributing": {
+    #             "Contribution Guidelines": None,
+    #             "Performing Migrations": None
+    #         }
+    #         },
+    #     "Settings":{},
+    #     "Turorials":{},
+    #     "Plugins":{},
+    #     "HostedCTFd":{},
+    #     "Themes":{},
+    # },
+    
+    # "LABS": {
+    #     "Challenges": {
+    #         "Challenges Creation": None,
+    #         "Challenges Deleting": None,
+    #     },
+    #     "Leaderboards": {
+    #         "Checking Boards": None
+    #     }
+    # }
 }
 
 

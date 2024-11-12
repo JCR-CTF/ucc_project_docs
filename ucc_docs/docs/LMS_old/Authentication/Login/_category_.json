@@ -1,6 +1,6 @@
 {
-  "label": "LMS",
-  "position": 2,
+  "label": "Login",
+  "position": 4,
   "link": {
     "type": "generated-index"
   }
