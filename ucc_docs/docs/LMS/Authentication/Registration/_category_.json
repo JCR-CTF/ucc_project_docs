@@ -1,6 +1,6 @@
 {
-  "label": "LMS",
-  "position": 2,
+  "label": "Registration",
+  "position": 4,
   "link": {
     "type": "generated-index"
   }

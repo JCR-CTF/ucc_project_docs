@@ -1,6 +1,6 @@
 {
-  "label": "LMS",
-  "position": 2,
+  "label": "Course Feedback",
+  "position": 5,
   "link": {
     "type": "generated-index"
   }

@@ -1,6 +1,6 @@
 {
-  "label": "LMS",
-  "position": 2,
+  "label": "Enrollment",
+  "position": 5,
   "link": {
     "type": "generated-index"
   }
