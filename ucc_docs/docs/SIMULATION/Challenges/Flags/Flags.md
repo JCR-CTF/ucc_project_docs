@@ -12,11 +12,13 @@ Static flags are simple, users must submit exactly the value of the flag in orde
 ### Regex Flag
 Regex flags allow admins to define regular expressions to match flags. Regular expressions allow challenges to accept multiple flag values as correct as long as it can be represented in a regular expression.
 
-> **Tip**: To test your regular expressions we recommend using the [Pythex](https://pythex.org/) website.
-
+::::tip
+To test your regular expressions we recommend using the [Pythex](https://pythex.org/) website.
+::::
 ### Programmable Flag
-> **Caution**: Programmable flags are only available on Hosted or Enterprise Ucc Cyber Range instances
-
+::::caution
+ Programmable flags are only available on Hosted or Enterprise Ucc Cyber Range instances
+::::
 Programmable keys allow you to use Python code to check user submissions when static or regex flags are not flexible enough.
 
 A check function is a Python function taking a single argument. The argument provided will be the user's input. The function should then return a Boolean indicating whether the user was correct or not.

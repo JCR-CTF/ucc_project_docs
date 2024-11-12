@@ -1,9 +1,8 @@
 # Updating
 
-> ℹ️ **INFO**
-> 
-> Upgrades/Updates are managed for you by the UCC Cyber Range Team on Hosted UCC Cyber Range instances. You do not need to apply updates yourself on a Hosted UCC Cyber Range instance.
-
+::::info 
+Upgrades/Updates are managed for you by the UCC Cyber Range Team on Hosted UCC Cyber Range instances. You do not need to apply updates yourself on a Hosted UCC Cyber Range instance.
+::::
 Updating UCC Cyber Range is a fairly simple process. In most cases outside of legacy UCC Cyber Range versions (e.g. 1.x), the only step needed is to update the running code by running git pull or updating the Docker image.
 
 UCC Cyber Range will typically take care of any migration steps required when upgrading versions. However before updating it is still recommended that you review the CHANGELOG to make sure that no breaking changes are being introduced and there are no manual steps required.

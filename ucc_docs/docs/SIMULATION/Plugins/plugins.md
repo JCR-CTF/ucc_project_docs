@@ -7,10 +7,9 @@ UCC-Cyber Drills features a plugin interface allowing for the modification of CT
 - Your modifications and plugins can be shared more easily
 - UCC-Cyber Drills can be updated without losing any custom behavior
 
-> ℹ️ **INFO**
-> 
-> The UCC-Cyber Drills developers will do their best to avoid introducing breaking changes, but keep in mind that the plugin interface is still under development and could change.
-
+::::info
+The UCC-Cyber Drills developers will do their best to avoid introducing breaking changes, but keep in mind that the plugin interface is still under development and could change.
+::::
 ## Architecture
 
 CTFd plugins are implemented as Python modules with some CTFd-specific files:
