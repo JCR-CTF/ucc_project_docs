@@ -118,6 +118,21 @@ const config = {
           },
         ],
       },
+      algolia: {
+        // The application ID from your Algolia email
+        appId: 'BDOFGK1U2P', // Add your appId here
+        
+        // The API key from your Algolia email
+        apiKey: '38b4eddef24ce15eea210e8bd35bf7d1', // Add your search-only API key here
+        
+        // The index name from your email
+        indexName: 'jcr-ctfio',
+  
+        // Recommended additional settings
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       footer: {
         style: 'dark',
         links: [
