@@ -1,6 +1,7 @@
 
 # Course Access Guide
 
+
 <div style={{
  width: '100%',
  height: '640px',
