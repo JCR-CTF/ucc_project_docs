@@ -111,7 +111,7 @@ const config = {
           },
           {
             to: '/docs/category/simulation',
-            label: 'CTFd',
+            label: 'Simulation Platform',
             position: 'left',
           },
           {
