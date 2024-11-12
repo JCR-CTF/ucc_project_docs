@@ -1,23 +1,23 @@
 # UCC.js
 
-CTFd.js (https://github.com/CTFd/CTFd.js) is a JavaScript library intended for themes to interact with the CTFd API to make it easier to focus on the rest of the theme.
+UCCD.js (https://github.com/CTFd/CTFd.js) is a JavaScript library intended for themes to interact with the UCCD API to make it easier to focus on the rest of the theme.
 
-CTFd.js is available on npm as @ctfdio/ctfd-js.
+UCCD.js is available on npm as @UCCDio/UCCD-js.
 
-CTFd.init()
-Initialize the CTFd class object with the data needed to access the API and also subscribe to the Server Sent Events (SSE) notification endpoints (/events).
+UCCD.init()
+Initialize the UCCD class object with the data needed to access the API and also subscribe to the Server Sent Events (SSE) notification endpoints (/events).
 
-CTFd.config
-Access the CTFd configuration variables that were set during initalization.
+UCCD.config
+Access the UCCD configuration variables that were set during initalization.
 
-CTFd.pages
-CTFd REST API wrappers used for each of the main CTFd pages
+UCCD.pages
+UCCD REST API wrappers used for each of the main UCCD pages
 
-CTFd.fetch()
-Call the CTFd wrapper for fetch
+UCCD.fetch()
+Call the UCCD wrapper for fetch
 
-CTFd.ui
-Various utility functions that can be useful for improving the CTFd UI
+UCCD.ui
+Various utility functions that can be useful for improving the UCCD UI
 
-CTFd.lib
+UCCD.lib
 Vendored versions of third party libraries for easier use

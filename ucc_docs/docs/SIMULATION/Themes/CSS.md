@@ -1,7 +1,7 @@
 # CSS
 
 # manifest-css.json
-One quirk of Vite's manifest system is that it does not directly generate a manifest for CSS assets. To get around this the CTFd developers created a Vite plugin (vite-manifest-css) which will create a seperate manifest specifically for CSS files called manifest-css.json.
+One quirk of Vite's manifest system is that it does not directly generate a manifest for CSS assets. To get around this the UCCD developers created a Vite plugin (vite-manifest-css) which will create a seperate manifest specifically for CSS files called manifest-css.json.
 
 This can be used by importing CSSManifestPlugin and then including it as a Vite plugin as shown in the following Vite config example:
 
@@ -34,8 +34,8 @@ A generated example of manifest-css.json would be:
 }
 
 # Assets.css()
-CTFd provides a helper to automatically include CSS files based on a key in manifest-css.json.
+UCCD provides a helper to automatically include CSS files based on a key in manifest-css.json.
 
-Using the previous manifest-css.json example, if a template includes {{ Assets.css("main.css") }}, CTFd will generate something like:
+Using the previous manifest-css.json example, if a template includes {{ Assets.css("main.css") }}, UCCD will generate something like:
 
 <link rel="stylesheet" href="/themes/core/static/assets/main.b16debf0.css"/>
