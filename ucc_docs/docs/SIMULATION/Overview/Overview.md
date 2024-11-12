@@ -1,6 +1,6 @@
 # Overview
-![UCC Logo](https://learn.ug-cert.ug/pluginfile.php/1/core_admin/logocompact/300x300/1727683148/ucc-logo.png)
 
+![UCC Logo](https://learn.ug-cert.ug/pluginfile.php/1/core_admin/logocompact/300x300/1727683148/ucc-logo.png)
 
 UCC Cyber Range is a Capture The Flag framework focusing on ease of use and customizability.
 
